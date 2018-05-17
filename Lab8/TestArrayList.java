@@ -5,18 +5,18 @@ public class Main {
 	private static Scanner scan;
 	
 	public static void showMenu() {
-		System.out.println("A - Введення даних");
-		System.out.println("B - Перегляд даних");
-		System.out.println("C - Виконання обчислень");
-		System.out.println("D - Відображення результату");
-		System.out.println("exit - Завершення програми");
+		System.out.println("A - Vvedennya danyh");
+		System.out.println("B - Pereglyad danyh");
+		System.out.println("C - Vykonannya obchyslen");
+		System.out.println("D - Vidobrazhennya rezultatu");
+		System.out.println("exit - Zavershennya programy");
 	}
 	public static TestArrayList test = new TestArrayList();
 	public static TestArrayList test1 = new TestArrayList();
 	public static TestArrayList test2 = new TestArrayList();
 	
 	public static void main(String[] args) {
-		System.out.println("Щоб відобразити опис пунктів меню введіть help");
+		System.out.println("Schob vidobrazyty opys punktiv menu vvedit help");
 
 	    scan = new Scanner(System.in);
 		String str=" ";
@@ -34,9 +34,9 @@ public class Main {
 					divvy();
 					break;
 				case "D":
-					System.out.println("Менше середньої:");
+					System.out.println("Menshe serednyoi:");
 					test1.getData();
-					System.out.println("Більше середньої:");
+					System.out.println("Bilshe serednyoi:");
 					test2.getData();
 					break;
 				case "exit":
